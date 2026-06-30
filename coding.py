@@ -1,23 +1,17 @@
 print("hello guys")
-marks = int(input("marks :"))
-if(marks >= 90):
-    print("A")
+A = int(input("A :"))
+G = input("M OR F :")
+if((A == 1 or A == 2) and G == "M"):
+    print("fee is 100")
 
-elif(marks >= 80):
-    print("B")
+elif((A == 3 or A == 4) and G == "F"):
+    print("fee is 200")
 
-elif(marks >= 70):
-    print("C")
-
-elif(marks >= 60):
-    print("D")
-
-elif(marks >= 50):
-    print("E")
+elif(A == 5 and G == "M"):
+    print("fee is 300")
 
 else:
-    print("fail")                   
-
+    print("no fee")            
 
 
 
