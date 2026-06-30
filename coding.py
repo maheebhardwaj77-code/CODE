@@ -1,4 +1,25 @@
-num1 = 10
-num2 = 13
-result = num1 + num2
-print("the result is:", result)
+print("hello guys")
+marks = int(input("marks :"))
+if(marks >= 90):
+    print("A")
+
+elif(marks >= 80):
+    print("B")
+
+elif(marks >= 70):
+    print("C")
+
+elif(marks >= 60):
+    print("D")
+
+elif(marks >= 50):
+    print("E")
+
+else:
+    print("fail")                   
+
+
+
+
+
+
